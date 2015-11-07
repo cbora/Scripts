@@ -2,6 +2,11 @@
 
 set +x
     
+#*********************************************
+#	Quick 1 in 10 filter based processing
+#
+#*********************************************
+
 OUTPUT_DIR=/data/user/cbora/RawProcessing_2015/Test/Output
 RAW_DIR=/data/wipac/ARA/2014/
 STATION=2
