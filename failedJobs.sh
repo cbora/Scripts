@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# This script will scan through condor log and copy the failed input files into a new file reprocess.txt
+# To be copied into the top directory of output e.g. 2015-12-00-00-00/
+
 CONDOR_LOG=Logs/System/
 
 FILE_LIST=`mktemp failures.XXXXXX`
