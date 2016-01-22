@@ -2,6 +2,11 @@
 
 set +x
 
+#************************************
+#  Random filter based processing
+#
+#************************************
+
 JOB_NUMBER=$1    
 STATION=2
 
